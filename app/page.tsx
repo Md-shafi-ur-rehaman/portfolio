@@ -23,6 +23,7 @@ import {
 } from "@/components/ui/ResizableNavbar";
 import { cn } from "@/utils/cn";
 import { Spotlight } from "@/components/ui/Spotlight";
+import { FeaturesSectionDemo } from "@/components/FeatureSection";
 
 export default function Home() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -85,6 +86,7 @@ export default function Home() {
               </MobileNav>
         </Navbar>
         <Hero />
+        <FeaturesSectionDemo/>
         <About/>
         <RecentProjects />
         <Skills />

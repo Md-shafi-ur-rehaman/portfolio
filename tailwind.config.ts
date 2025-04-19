@@ -15,6 +15,8 @@ const config = {
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
     "./data/**/*.{ts,tsx}",
+    './app/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
   ],
   prefix: "",
   theme: {
@@ -83,8 +85,8 @@ const config = {
       },
       keyframes: {
         shine: {
-          '0%': { 'background-position': '100%' },
-          '100%': { 'background-position': '-100%' },
+          '0%': { 'background-position': '200% 0' },
+          '100%': { 'background-position': '-200% 0' },
         },
         "accordion-down": {
           from: { height: "0" },
